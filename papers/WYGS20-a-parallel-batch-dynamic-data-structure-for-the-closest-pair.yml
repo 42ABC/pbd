@@ -1,0 +1,14 @@
+title: A Parallel Batch-Dynamic Data Structure for the Closest Pair Problem
+authors: Yiqiu Wang, Shangdi Yu, Yan Gu, Julian Shun
+labels:
+- computational geometry
+- closest pairs
+- batch-dynamic
+publications:
+- name: arXiv
+  year: 2020
+  url: https://arxiv.org/abs/2010.02379
+  dblp_key: journals/corr/abs-2010-02379
+  bibtex: "@article{WYGS20,\n  author    = {Yiqiu Wang and\n               Shangdi Yu and\n               Yan Gu and\n               Julian Shun},\n  title     = {A Parallel Batch-Dynamic Data Structure for the Closest Pair Problem},\n  journal   = {CoRR},\n  year      = {2020},\n  url       = {https://arxiv.org/abs/2010.02379},\n  archivePrefix = {arXiv},\n  eprint    = {2010.02379}\n}\n\n"
+year: 2020
+s2_id: none

@@ -1,0 +1,17 @@
+title: 'Dynamic Graph Coloring: Sequential, Parallel, and Distributed'
+authors: Mohsen Ghaffari, Jaehyun Koo
+labels:
+- graph
+- vertex coloring
+- batch-dynamic
+- oblivious adversary
+- randomized
+- worst-case
+publications:
+- name: arXiv
+  year: 2025
+  url: https://arxiv.org/abs/2512.09218
+  dblp_key: journals/corr/abs-2512-09218
+  bibtex: "@article{GK25coloring,\ntitle={Dynamic Graph Coloring: Sequential, Parallel, and Distributed},\nauthor = {Mohsen Ghaffari and Jaehyun Koo},\nurl={https://arxiv.org/abs/2512.09218},\n\tjournal      = {CoRR},\n\tvolume       = {abs/2512.09218},\neprinttype={arXiv},\nyear={2025},}\n\n"
+year: 2025
+s2_id: none

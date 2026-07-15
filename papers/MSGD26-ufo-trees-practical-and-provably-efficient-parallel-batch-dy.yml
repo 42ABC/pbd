@@ -1,0 +1,20 @@
+title: 'UFO Trees: Practical and Provably-Efficient Parallel Batch-Dynamic Trees'
+authors: Quinten De Man, Atharva Sharma, Kishen Gowda, Laxman Dhulipala
+labels:
+- trees
+- batch-dynamic
+- implementation
+- randomized
+- worst-case
+publications:
+- name: PPoPP
+  year: 2026
+  url: https://dl.acm.org/doi/10.1145/3774934.3786431
+  bibtex: "@inproceedings{10.1145/3774934.3786431,\nauthor = {De Man, Quinten and Sharma, Atharva and Gowda, Kishen N and Dhulipala, Laxman},\ntitle = {UFO Trees: Practical and Provably-Efficient Parallel Batch-Dynamic Trees},\nyear = {2026},\nisbn = {9798400723100},\npublisher = {Association for Computing Machinery},\naddress = {New York, NY, USA},\nurl = {https://doi.org/10.1145/3774934.3786431},\ndoi = {10.1145/3774934.3786431},\nabstract = {The dynamic trees problem is to maintain a tree under edge updates while supporting queries like connectivity queries or path queries. Despite the first data structure for this fundamental problem---the link-cut tree---being invented 40 years ago, our experiments reveal that they are still the fastest sequential data structure for the problem. However, link-cut trees cannot support parallel batch-dynamic updates and have limitations on the kinds of queries they support. In this paper, we design a new parallel batch-dynamic trees data structure called UFO trees that simultaneously supports a wide range of query functionality, supports work-efficient parallel batch-dynamic updates, and is competitive with link-cut trees when run sequentially. We prove that a key reason for the strong practical performance of both link-cut trees and UFO trees is that they can perform updates and queries in sub-logarithmic time for low-diameter trees. We perform an experimental study of our optimized C++ implementations of UFO trees with ten other dynamic tree implementations, several of which are new, in a broad benchmark of both synthetic and real-world trees of varying diameter and size. Our results show that, in both sequential and parallel settings, UFO trees are the fastest dynamic tree data structure that supports a wide range of queries. Our new implementation of UFO trees has low space usage and easily scales to billion-size inputs, making it a promising building block for implementing more complex dynamic graph algorithms in practice.},\nbooktitle = {Proceedings of the 31st ACM SIGPLAN Annual Symposium on Principles and Practice of Parallel Programming},\npages = {109–122},\nnumpages = {14},\nkeywords = {Shared memory algorithms, dynamic graph algorithms, trees},\nlocation = {Sydney, NSW, Australia},\nseries = {PPoPP '26}\n}\n\n"
+- name: arXiv
+  year: 2026
+  url: https://arxiv.org/abs/2601.10706
+  dblp_key: journals/corr/abs-2601-10706
+
+year: 2026
+s2_id: none

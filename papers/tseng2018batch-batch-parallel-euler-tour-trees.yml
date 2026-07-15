@@ -1,0 +1,15 @@
+title: Batch-Parallel Euler Tour Trees
+authors: Thomas Tseng, Laxman Dhulipala, Guy Blelloch
+labels:
+- trees
+- batch-dynamic
+- parallel
+- implementation
+- randomized
+- worst-case
+publications:
+- name: ALENEX
+  year: 2019
+  bibtex: "@article{tseng2018batch,\n\tauthor    = {Tseng, Thomas and Dhulipala, Laxman and Blelloch, Guy},\n\ttitle     = {Batch-Parallel Euler Tour Trees},\n\tjournal   = {ALENEX},\n\tyear      = {2019},\n}\n\n"
+year: 2019
+s2_id: none

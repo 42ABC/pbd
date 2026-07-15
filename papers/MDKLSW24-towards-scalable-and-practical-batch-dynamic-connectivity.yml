@@ -1,0 +1,18 @@
+title: Towards Scalable and Practical Batch-Dynamic Connectivity
+authors: Quinten De Man, Laxman Dhulipala, Adam Karczmarz, Jakub Łącki, Julian Shun, Zhongqi Wang
+abstract: "We study the problem of dynamically maintaining the connected components of an undirected graph subject to edge insertions and deletions. We give the first parallel algorithm for the problem that is work-efficient, supports batches of updates, runs in polylogarithmic depth, and uses only linear total space. The existing algorithms for the problem either use super-linear space, do not come with strong theoretical bounds, or are not parallel. On the empirical side, we provide the first implementation of the cluster forest algorithm, the first linear-space and polylogarithmic update time algorithm for dynamic connectivity. Experimentally, we find that our algorithm uses up to 19.7x less space and is up to 6.2x faster than the level-set algorithm of Holm, de Lichtenberg, and Thorup, arguably the most widely-implemented dynamic connectivity algorithm with strong theoretical guarantees."
+labels:
+- graph
+- connectivity
+- batch-dynamic
+- implementation
+- deterministic
+- amortized
+publications:
+- name: VLDB
+  year: 2024
+  month: 11
+  url: https://doi.org/10.14778/3712221.3712250
+  bibtex: "@article{MDKLSW24,\nauthor = {De Man, Quinten and Dhulipala, Laxman and Karczmarz, Adam and \\L{}\\k{a}cki, Jakub and Shun, Julian and Wang, Zhongqi},\ntitle = {Towards Scalable and Practical Batch-Dynamic Connectivity},\nyear = {2024},\nissue_date = {November 2024},\npublisher = {VLDB Endowment},\nvolume = {18},\nnumber = {3},\nissn = {2150-8097},\nurl = {https://doi.org/10.14778/3712221.3712250},\ndoi = {10.14778/3712221.3712250},\njournal = {Proc. VLDB Endow.},\nmonth = nov,\npages = {889–901},\nnumpages = {13}\n}\n\n"
+year: 2024
+s2_id: none

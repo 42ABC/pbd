@@ -1,0 +1,18 @@
+title: Parallel Batch-Dynamic Algorithms for Spanners, and Extensions
+authors: Mohsen Ghaffari, Jaehyun Koo
+abstract: "This paper presents the first parallel batch-dynamic algorithms for computing spanners and sparsifiers. Our algorithms process any batch of edge insertions and deletions in an n-node undirected graph, in poly(log n) depth and using amortized work near-linear in the batch size. Our concrete results are as follows: Our base algorithm maintains a spanner with (2k-1) stretch and O~(n^{1+1/k}) edges, for any k >= 1. Our first extension maintains a sparse spanner with only O(n) edges, and O~(log n) stretch. Our second extension maintains a t-bundle of spanners -- i.e., t spanners, each of which is the spanner of the graph remaining after removing the previous ones -- and allows us to maintain cut/spectral sparsifiers with O~(n) edges."
+labels:
+- graph
+- spanner
+- sparsifier
+- batch-dynamic
+- randomized
+- amortized
+- oblivious adversary
+publications:
+- name: SPAA
+  year: 2025
+  url: https://doi.org/10.1145/3694906.3743322
+  bibtex: "@inproceedings{GK25sparsifiers,\nauthor = {Ghaffari, Mohsen and Koo, Jaehyun},\ntitle = {Parallel Batch-Dynamic Algorithms for Spanners, and Extensions},\nyear = {2025},\nisbn = {9798400712586},\npublisher = {Association for Computing Machinery},\naddress = {New York, NY, USA},\nurl = {https://doi.org/10.1145/3694906.3743322},\ndoi = {10.1145/3694906.3743322},\nbooktitle = {Proceedings of the 37th ACM Symposium on Parallelism in Algorithms and Architectures},\npages = {299–313},\nnumpages = {15},\nkeywords = {Parallel algorithms, batch-dynamic parallel algorithms, dynamic algorithms, spanners, sparsifiers},\nlocation = {Portland, OR, USA},\nseries = {SPAA '25}\n}\n\n"
+year: 2025
+s2_id: none

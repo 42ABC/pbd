@@ -1,0 +1,18 @@
+title: Parallel Batch-Dynamic Minimum Spanning Forest and the Efficiency of Dynamic Agglomerative Graph Clustering
+authors: Tom Tseng, Laxman Dhulipala, Julian Shun
+abstract: "Hierarchical agglomerative clustering (HAC) is a popular algorithm for clustering data, but despite its importance, no dynamic algorithms for HAC with good theoretical guarantees exist. In this paper, we study dynamic HAC on edge-weighted graphs. As single-linkage HAC reduces to computing a minimum spanning forest (MSF), our first result is a parallel batch-dynamic algorithm for maintaining MSFs. On a batch of k edge insertions or deletions, our batch-dynamic MSF algorithm runs in O(k log^6 n) expected amortized work and O(log^4 n) span with high probability. It is the first fully dynamic MSF algorithm handling batches of edge updates with polylogarithmic work per update and polylogarithmic span. Using our MSF algorithm, we obtain a parallel batch-dynamic algorithm that can answer queries about single-linkage graph HAC clusters. Our second result is that dynamic graph HAC is significantly harder for other common linkage functions. For example, assuming the strong exponential time\
+  \ hypothesis, dynamic graph HAC requires Omega(n^{1-o(1)}) work per update or query on a graph with n vertices for complete linkage, weighted average linkage, and average linkage. For complete linkage and weighted average linkage, the bound still holds even for incremental or decremental algorithms and even if we allow poly(n)-approximation. For average linkage, the bound weakens to Omega(n^{1/2-o(1)}) for incremental and decremental algorithms, and the bounds still hold when allowing n^{o(1)}-approximation."
+labels:
+- min spanning tree
+- batch-dynamic
+- clustering
+- randomized
+- parallel
+- amortized
+publications:
+- name: SPAA
+  year: 2022
+  url: https://doi.org/10.1145/3490148.3538584
+  bibtex: "@inproceedings{TDS22,\nauthor = {Tseng, Tom and Dhulipala, Laxman and Shun, Julian},\ntitle = {Parallel Batch-Dynamic Minimum Spanning Forest and the Efficiency of Dynamic Agglomerative Graph Clustering},\nyear = {2022},\nisbn = {9781450391467},\npublisher = {Association for Computing Machinery},\naddress = {New York, NY, USA},\nurl = {https://doi.org/10.1145/3490148.3538584},\ndoi = {10.1145/3490148.3538584},\nbooktitle = {Proceedings of the 34th ACM Symposium on Parallelism in Algorithms and Architectures},\npages = {233–245},\nnumpages = {13},\nkeywords = {parallel algorithms, graph clustering, dynamic algorithms},\nlocation = {Philadelphia, PA, USA},\nseries = {SPAA '22}\n}\n\n"
+year: 2022
+s2_id: none

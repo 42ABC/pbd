@@ -1,0 +1,15 @@
+title: Deterministic and Low-Span Work-Efficient Parallel Batch-Dynamic Trees
+authors: Daniel Anderson, Guy E. Blelloch
+labels:
+- trees
+- batch-dynamic
+- deterministic
+- worst-case
+- adaptive adversary
+publications:
+- name: SPAA
+  year: 2024
+  url: https://doi.org/10.1145/3626183.3659976
+  bibtex: "@inproceedings{AB24,\n  author       = {Daniel Anderson and\n                  Guy E. Blelloch},\n  title        = {Deterministic and Low-Span Work-Efficient Parallel Batch-Dynamic Trees},\n  booktitle    = {SPAA},\n  pages        = {247--258},\n  publisher    = {ACM},\n  year         = {2024},\n  url          = {https://doi.org/10.1145/3626183.3659976},\n  doi          = {10.1145/3626183.3659976},\n}\n\n"
+year: 2024
+s2_id: none

@@ -1,0 +1,14 @@
+title: Parallel Batch-Dynamic Trees via Change Propagation
+authors: Umut A. Acar, Daniel Anderson, Guy E. Blelloch, Laxman Dhulipala, Sam Westrick
+labels:
+- trees
+- batch-dynamic
+- worst-case
+- randomized
+publications:
+- name: ESA
+  year: 2020
+  url: https://drops.dagstuhl.de/entities/document/10.4230/LIPIcs.ESA.2020.2
+  bibtex: "@inproceedings{AABDW20,\n  author    = {Umut A. Acar and\n               Daniel Anderson and\n               Guy E. Blelloch and\n               Laxman Dhulipala and\n               Sam Westrick},\n  title     = {Parallel Batch-Dynamic Trees via Change Propagation},\n  booktitle = {ESA},\n  pages= {2:1--2:23},\n  year      = {2020},\n}\n\n"
+year: 2020
+s2_id: none

@@ -1,0 +1,19 @@
+title: Parallel kd-tree with Batch Updates
+authors: Ziyang Men, Zheqi Shen, Yan Gu, Yihan Sun
+labels:
+- nearest neighbor search
+- trees
+- batch-dynamic
+- implementation
+- parallel
+- amortized
+- deterministic
+- point set
+publications:
+- name: SIGMOD
+  year: 2025
+  month: 2
+  url: https://doi.org/10.1145/3709712
+  bibtex: "@article{MSGS25,\nauthor = {Men, Ziyang and Shen, Zheqi and Gu, Yan and Sun, Yihan},\ntitle = {Parallel kd-tree with Batch Updates},\nyear = {2025},\nissue_date = {February 2025},\npublisher = {Association for Computing Machinery},\naddress = {New York, NY, USA},\nvolume = {3},\nnumber = {1},\nurl = {https://doi.org/10.1145/3709712},\ndoi = {10.1145/3709712},\njournal = {SIGMOD},\nmonth = feb,\narticleno = {62},\nkeywords = {kd-tree, parallel algorithms, parallel trees, spatial partition trees}\n}\n\n"
+year: 2025
+s2_id: none

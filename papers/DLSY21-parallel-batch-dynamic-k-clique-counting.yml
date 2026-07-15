@@ -1,0 +1,14 @@
+title: Parallel batch-dynamic k-clique counting
+authors: Laxman Dhulipala, Quanquan C. Liu, Julian Shun, Shangdi Yu
+labels:
+- graph
+- clique counting
+- batch-dynamic
+- implementation
+publications:
+- name: APOCS
+  year: 2021
+  url: https://epubs.siam.org/doi/10.1137/1.9781611976489.10
+  bibtex: "@inproceedings{DLSY21,\n  title={Parallel batch-dynamic k-clique counting},\n  author={Dhulipala, Laxman and Liu, Quanquan C and Shun, Julian and Yu, Shangdi},\n  booktitle={APOCS},\n  pages={129--143},\n  year={2021},\n}\n\n"
+year: 2021
+s2_id: none

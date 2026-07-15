@@ -1,0 +1,15 @@
+title: Parallel Batch-Dynamic k-d Trees
+authors: Rahul Yesantharao, Yiqiu Wang, Laxman Dhulipala, Julian Shun
+labels:
+- trees
+- nearest neighbor search
+- batch-dynamic
+- parallel
+publications:
+- name: arXiv
+  year: 2021
+  url: https://arxiv.org/abs/2112.06188
+  dblp_key: journals/corr/abs-2112-06188
+  bibtex: "@article{yesantharao2021parallel,\n  title={Parallel Batch-Dynamic $k$-d Trees},\n  author={Yesantharao, Rahul and Wang, Yiqiu and Dhulipala, Laxman and Shun, Julian},\n  journal = {CoRR},\n  volume={abs/2112.06188},\n  year={2021},\n}\n\n"
+year: 2021
+s2_id: none

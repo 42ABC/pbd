@@ -1,0 +1,16 @@
+title: Parallel Minimum Cost Flow in Near-Linear Work and Square Root Depth for Dense Instances
+authors: Jan van den Brand, Hossein Gholizadeh, Yonggang Jiang, Tjin de Vos
+abstract: "For n-vertex m-edge graphs with integer polynomially-bounded costs and capacities, we provide a randomized parallel algorithm for the minimum cost flow problem with O~(m+n^{1.5}) work and O~(sqrt(n)) depth. On moderately dense graphs (m > n^{1.5}), our algorithm is the first one to achieve both near-linear work and sub-linear depth. Previous algorithms are either achieving almost optimal work but are highly sequential [CKL+22], or achieving sub-linear depth but use super-linear work [LS14, OS93]. Our result also leads to improvements for the special cases of max flow, bipartite maximum matching, shortest paths, and reachability. Our algorithm consists of a parallel implementation of [BLL+21]. One important building block is a parallel batch-dynamic expander decomposition, which we show how to obtain from the recent parallel expander decomposition of [CMGS25]."
+labels:
+- min cut/max flow
+- static
+- randomized
+- graph
+- exact
+publications:
+- name: SPAA
+  year: 2025
+  url: https://doi.org/10.1145/3694906.3743356
+  bibtex: "@inproceedings{BGJV25,\nauthor = {van den Brand, Jan and Gholizadeh, Hossein and Jiang, Yonggang and de Vos, Tjin},\ntitle = {Parallel Minimum Cost Flow in Near-Linear Work and Square Root Depth for Dense Instances},\nyear = {2025},\nisbn = {9798400712586},\npublisher = {Association for Computing Machinery},\naddress = {New York, NY, USA},\nurl = {https://doi.org/10.1145/3694906.3743356},\ndoi = {10.1145/3694906.3743356},\nbooktitle = {Proceedings of the 37th ACM Symposium on Parallelism in Algorithms and Architectures},\npages = {1–16},\nnumpages = {16},\nkeywords = {Bipartite Matching, Expander Decomposition, Maximum Flow, Parallel Algorithm},\nlocation = {Portland, OR, USA},\nseries = {SPAA '25}\n}\n\n"
+year: 2025
+s2_id: none

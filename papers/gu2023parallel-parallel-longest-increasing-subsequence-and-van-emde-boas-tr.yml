@@ -1,0 +1,17 @@
+title: Parallel Longest Increasing Subsequence and van Emde Boas Trees
+authors: Yan Gu, Ziyang Men, Zheqi Shen, Yihan Sun, Zijin Wan
+labels:
+- trees
+- static
+- dynamic programming
+- batch-dynamic
+- deterministic
+- implementation
+- strings
+publications:
+- name: SPAA
+  year: 2023
+  url: https://dl.acm.org/doi/10.1145/3558481.3591069
+  bibtex: "@inproceedings{gu2023parallel,\n  title     = {Parallel Longest Increasing Subsequence and van Emde Boas Trees},\n  author    = {Gu, Yan and Men, Ziyang and Shen, Zheqi and Sun, Yihan and Wan, Zijin},\n  booktitle = {SPAA},\n  year      = {2023}\n}\n\n"
+year: 2023
+s2_id: none

@@ -1,0 +1,17 @@
+title: Parallel Dynamic Maximal Matching
+authors: Mohsen Ghaffari, Anton Trygub
+labels:
+- matching
+- batch-dynamic
+- amortized
+- randomized
+- oblivious adversary
+- parallel
+- set cover
+publications:
+- name: SPAA
+  year: 2024
+  url: https://dl.acm.org/doi/10.1145/3626183.3659982
+  bibtex: "@inproceedings{GT24,\ntitle = {Parallel Dynamic Maximal Matching},\nauthor = {Mohsen Ghaffari and Anton Trygub},\nbooktitle = {SPAA},\nyear = 2024}\n\n"
+year: 2024
+s2_id: none

@@ -1,0 +1,15 @@
+title: Nearly Work-Efficient Parallel DFS in Undirected Graphs
+authors: Mohsen Ghaffari, Christoph Grunau, Jiahao Qu
+abstract: "We present the first parallel depth-first search algorithm for undirected graphs that has near-linear work and sublinear depth. Concretely, in any n-node m-edge undirected graph, our algorithm computes a DFS in O~(sqrt(n)) depth and using O~(m+n) work. All prior work either required Omega(n) depth, and thus were essentially sequential, or needed a high poly(n) work and thus were far from being work-efficient."
+labels:
+- graph
+- static
+- graph search
+- randomized
+publications:
+- name: SPAA
+  year: 2023
+  url: https://doi.org/10.1145/3558481.3591094
+  bibtex: "@inproceedings{GGQ23,\nauthor = {Ghaffari, Mohsen and Grunau, Christoph and Qu, Jiahao},\ntitle = {Nearly Work-Efficient Parallel DFS in Undirected Graphs},\nyear = {2023},\nisbn = {9781450395458},\npublisher = {Association for Computing Machinery},\naddress = {New York, NY, USA},\nurl = {https://doi.org/10.1145/3558481.3591094},\ndoi = {10.1145/3558481.3591094},\nbooktitle = {Proceedings of the 35th ACM Symposium on Parallelism in Algorithms and Architectures},\npages = {273–283},\nnumpages = {11},\nkeywords = {depth-first search, parallel algorithms, work-efficient},\nlocation = {Orlando, FL, USA},\nseries = {SPAA '23}\n}\n\n"
+year: 2023
+s2_id: none

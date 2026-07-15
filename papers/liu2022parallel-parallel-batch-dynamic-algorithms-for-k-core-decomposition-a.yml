@@ -1,0 +1,19 @@
+title: Parallel batch-dynamic algorithms for k-core decomposition and related graph problems
+authors: Quanquan C. Liu, Jessica Shi, Shangdi Yu, Laxman Dhulipala, Julian Shun
+labels:
+- graph
+- kcore
+- batch-dynamic
+- implementation
+- matching
+- vertex coloring
+- adaptive adversary
+- randomized
+- amortized
+publications:
+- name: SPAA
+  year: 2022
+  url: https://dl.acm.org/doi/10.1145/3490148.3538569
+  bibtex: "@inproceedings{liu2022parallel,\n  title={Parallel batch-dynamic algorithms for k-core decomposition and related graph problems},\n  author={Liu, Quanquan C and Shi, Jessica and Yu, Shangdi and Dhulipala, Laxman and Shun, Julian},\n  booktitle={SPAA},\n  pages={191--204},\n  year={2022}\n}\n\n"
+year: 2022
+s2_id: none

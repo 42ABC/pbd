@@ -1,0 +1,16 @@
+title: Parallel Nearest Neighbors in Low Dimensions with Batch Updates
+authors: Guy E. Blelloch, Magdalen Dobson
+labels:
+- nearest neighbor search
+- batch-dynamic
+- randomized
+- worst-case
+- implementation
+- point set
+publications:
+- name: ALENEX
+  year: 2022
+  url: https://epubs.siam.org/doi/10.1137/1.9781611977042.16
+  bibtex: "@inproceedings{BD22,\n  title={Parallel Nearest Neighbors in Low Dimensions with Batch Updates},\n  author={Blelloch, Guy E and Dobson, Magdalen},\n  booktitle={Symposium on Algorithm Engineering and Experiments (ALENEX)},\n  pages={195--208},\n  year={2022},\n  organization={SIAM}\n}\n\n"
+year: 2022
+s2_id: none

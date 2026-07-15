@@ -1,0 +1,13 @@
+title: 'ParGeo: A Library for Parallel Computational Geometry'
+authors: Yiqiu Wang, Rahul Yesantharao, Shangdi Yu, Laxman Dhulipala, Yan Gu, Julian Shun
+labels:
+- computational geometry
+- parallel
+- implementation
+publications:
+- name: ESA
+  year: 2022
+  url: https://drops.dagstuhl.de/entities/document/10.4230/LIPIcs.ESA.2022.88
+  bibtex: "@inproceedings{wang2022pargeo,\n  author       = {Yiqiu Wang and\n                  Rahul Yesantharao and\n                  Shangdi Yu and\n                  Laxman Dhulipala and\n                  Yan Gu and\n                  Julian Shun},\n  title        = {ParGeo: A Library for Parallel Computational Geometry},\n  booktitle    = {ESA},\n  series       = {LIPIcs},\n  volume       = {244},\n  pages        = {88:1--88:19},\n  year= 2022\n}\n\n"
+year: 2022
+s2_id: none

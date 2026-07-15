@@ -1,0 +1,19 @@
+title: Parallel Minimum Cuts in O(m log^2 n) Work and Low Depth
+authors: Daniel Anderson, Guy E. Blelloch
+labels:
+- min cut/max flow
+- static
+- graph
+- randomized
+- exact
+publications:
+- name: TOPC
+  year: 2023
+  url: https://doi.org/10.1145/3565557
+  bibtex: "@article{AB23,\n  author       = {Daniel Anderson and\n                  Guy E. Blelloch},\n  title        = {Parallel Minimum Cuts in O(m log^2 n) Work and Low Depth},\n  journal      = {TOPC},\n  volume       = {10},\n  number       = {4},\n  pages        = {18:1--18:28},\n  year         = {2023},\n  url          = {https://doi.org/10.1145/3565557},\n  doi          = {10.1145/3565557},\n}\n\n"
+- name: SPAA
+  year: 2021
+  url: https://dl.acm.org/doi/10.1145/3409964.3461797
+
+year: 2021
+s2_id: none

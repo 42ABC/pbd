@@ -1,0 +1,16 @@
+title: Parallel Cover Trees and their Applications
+authors: Yan Gu, Zachary Napier, Yihan Sun, Letong Wang
+labels:
+- trees
+- nearest neighbor search
+- clustering
+- batch-dynamic 
+- nearest neighbor search
+- point set
+- randomized
+publications:
+- name: SPAA
+  year: 2022
+  bibtex: "@inproceedings{gu2022parallel,\n  title={Parallel Cover Trees and their Applications},\n  author={Gu, Yan and Napier, Zachary and Sun, Yihan and Wang, Letong},\n  booktitle={SPAA},\n  year={2022},\n}\n\n"
+year: 2022
+s2_id: none

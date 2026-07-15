@@ -1,0 +1,18 @@
+title: Fully-Dynamic Parallel Algorithms for Single-Linkage Clustering
+authors: Quinten De Man, Laxman Dhulipala, Kishen N. Gowda
+abstract: "Single-linkage clustering is a popular form of hierarchical agglomerative clustering (HAC) where the distance between two clusters is defined as the minimum distance between any pair of points across the two clusters. In single-linkage HAC, the output is typically the single-linkage dendrogram (SLD), which is the binary tree representing the hierarchy of clusters formed by iteratively contracting the two closest clusters. In the dynamic setting, prior work has only studied maintaining a minimum spanning forest over the data since single-linkage HAC reduces to computing the SLD on the minimum spanning forest of the data. In this paper, we study the problem of maintaining the SLD in the fully-dynamic setting. We assume the input is a dynamic forest F (representing the minimum spanning forest of the data) which receives a sequence of edge insertions and edge deletions. To our knowledge, no prior work has provided algorithms to update an SLD asymptotically faster than recomputing\
+  \ it from scratch. All of our update algorithms are asymptotically faster than the best known static SLD computation algorithm, which takes O(n log h) time where h is the height of the dendrogram (h <= n-1). Furthermore, our algorithms are much faster in many cases, such as when h is low. Our first set of results are an insertion algorithm in O(h) time and a deletion algorithm in O(h log(1+n/h)) time. Next, we describe parallel and batch-parallel versions of these algorithms which are work-efficient or nearly work-efficient and have poly-logarithmic depth. Finally, we show how to perform insertions near-optimally in O(c log(1+n/c)) time, where c is the number of structural changes in the dendrogram caused by the update, and give a work-efficient parallel version of this algorithm that has polylogarithmic depth."
+labels:
+- clustering
+- min spanning tree
+- trees
+- batch-dynamic
+- deterministic
+- worst-case
+publications:
+- name: SPAA
+  year: 2025
+  url: https://doi.org/10.1145/3694906.3743315
+  bibtex: "@inproceedings{MDG25,\nauthor = {De Man, Quinten and Dhulipala, Laxman and Gowda, Kishen N.},\ntitle = {Fully-Dynamic Parallel Algorithms for Single-Linkage Clustering},\nyear = {2025},\nisbn = {9798400712586},\npublisher = {Association for Computing Machinery},\naddress = {New York, NY, USA},\nurl = {https://doi.org/10.1145/3694906.3743315},\ndoi = {10.1145/3694906.3743315},\nbooktitle = {Proceedings of the 37th ACM Symposium on Parallelism in Algorithms and Architectures},\npages = {397–412},\nnumpages = {16},\nkeywords = {Dendrograms, Dynamic Graph Algorithms, HAC, Hierarchical Graph Clustering, Parallel Algorithms, Parallel Batch-Dynamic Algorithms, Single-Linkage Clustering},\nlocation = {Portland, OR, USA},\nseries = {SPAA '25}\n}\n\n"
+year: 2025
+s2_id: none

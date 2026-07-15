@@ -1,0 +1,15 @@
+title: Parallel Batch-Dynamic Graph Connectivity
+authors: Umut A. Acar, Daniel Anderson, Guy E. Blelloch, Laxman Dhulipala
+labels:
+- graph
+- connectivity
+- batch-dynamic
+- randomized
+- amortized
+publications:
+- name: SPAA
+  year: 2019
+  url: https://dl.acm.org/doi/10.1145/3323165.3323196
+  bibtex: "@inproceedings{AABD19,\n  author    = {Umut A. Acar and\n               Daniel Anderson and\n               Guy E. Blelloch and\n               Laxman Dhulipala},\n  title     = {Parallel Batch-Dynamic Graph Connectivity},\n  booktitle = {SPAA},\n  pages= {381--392},\n  publisher = {ACM},\n  year      = {2019}\n}\n\n"
+year: 2019
+s2_id: none

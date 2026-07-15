@@ -1,0 +1,16 @@
+title: Work-Efficient Batch-Incremental Minimum Spanning Trees with Applications to the Sliding-Window Model
+authors: Daniel Anderson, Guy E. Blelloch, Kanat Tangwongsan
+labels:
+- min spanning tree
+- batch-incremental
+- randomized
+- worst-case
+- connectivity
+- sparsifier
+publications:
+- name: SPAA
+  year: 2020
+  url: https://dl.acm.org/doi/10.1145/3350755.3400241
+  bibtex: "@inproceedings{ABT20,\n  author    = {Daniel Anderson and\n               Guy E. Blelloch and\n               Kanat Tangwongsan},\n  title     = {Work-Efficient Batch-Incremental Minimum Spanning Trees with Applications\n               to the Sliding-Window Model},\n  booktitle = {SPAA},\n  year = {2020}\n}\n\n"
+year: 2020
+s2_id: none

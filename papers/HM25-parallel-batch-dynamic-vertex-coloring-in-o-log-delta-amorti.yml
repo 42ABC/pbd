@@ -1,0 +1,16 @@
+title: Parallel Batch-Dynamic Vertex Coloring in O(log Delta) Amortized Update Time
+authors: Chase Hutton, Adam Melrod
+labels:
+- vertex coloring
+- batch-dynamic
+- amortized
+- randomized 
+- oblivious adversary
+publications:
+- name: arXiv
+  year: 2025
+  url: https://arxiv.org/abs/2512.08742
+  dblp_key: journals/corr/abs-2512-08742
+  bibtex: "@article{HM25,\ntitle={Parallel Batch-Dynamic Vertex Coloring in $O(\\log \\Delta)$ Amortized Update Time},\nauthor = {Chase Hutton and Adam Melrod},\nurl={https://arxiv.org/abs/2512.08742},\n\tjournal      = {CoRR},\n\tvolume       = {abs/2512.08742},\neprinttype={arXiv},\nyear={2025},\n}\n\n"
+year: 2025
+s2_id: none

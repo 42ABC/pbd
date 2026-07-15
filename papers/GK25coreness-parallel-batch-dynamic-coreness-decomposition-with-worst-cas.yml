@@ -1,0 +1,21 @@
+title: Parallel Batch-Dynamic Coreness Decomposition with Worst-Case Guarantees
+authors: Mohsen Ghaffari, Jaehyun Koo
+abstract: "We present the first parallel batch-dynamic algorithm for approximating coreness decomposition with worst-case update times. Given any batch of edge insertions and deletions, our algorithm processes all these updates in poly(log n) depth, using a worst-case work bound of b*poly(log n) where b denotes the batch size. This means the batch gets processed in O~(b/p) time, given p processors, which is optimal up to logarithmic factors. Previously, an algorithm with similar guarantees was known by the celebrated work of Liu, Shi, Yu, Dhulipala, and Shun [SPAA'22], but with the caveat of the work bound, and thus the runtime, being only amortized."
+labels:
+- graph
+- kcore
+- batch-dynamic
+- arboricity
+- worst-case
+- randomized
+- matching
+- parallel
+- vertex coloring
+- adaptive adversary
+publications:
+- name: SPAA
+  year: 2025
+  url: https://doi.org/10.1145/3694906.3743328
+  bibtex: "@inproceedings{GK25coreness,\nauthor = {Ghaffari, Mohsen and Koo, Jaehyun},\ntitle = {Parallel Batch-Dynamic Coreness Decomposition with Worst-Case Guarantees},\nyear = {2025},\nisbn = {9798400712586},\npublisher = {Association for Computing Machinery},\naddress = {New York, NY, USA},\nurl = {https://doi.org/10.1145/3694906.3743328},\ndoi = {10.1145/3694906.3743328},\nbooktitle = {Proceedings of the 37th ACM Symposium on Parallelism in Algorithms and Architectures},\npages = {225–239},\nnumpages = {15},\nkeywords = {Parallel algorithms, arboricity, batch-dynamic parallel algorithms, coreness decomposition, dynamic algorithms, orientation},\nlocation = {Portland, OR, USA},\nseries = {SPAA '25}\n}\n\n"
+year: 2025
+s2_id: none

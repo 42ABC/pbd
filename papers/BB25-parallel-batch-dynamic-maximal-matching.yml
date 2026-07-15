@@ -1,0 +1,27 @@
+title: Parallel Batch-Dynamic Maximal Matching with Constant Work per Update
+authors: Guy E. Blelloch, Andrew C. Brady
+abstract: "We present a work optimal algorithm for parallel fully batch-dynamic maximal matching against an oblivious adversary. It processes batches of updates (either insertions or deletions of edges) in constant expected amortized work per edge update, and in $O(\\log^3 m)$ depth per batch whp, where $m$ is the maximum number of edges in the graph over time. This greatly improves on the recent result by Ghaffari and Trygub (2024) that requires $O(\\log^9 m)$ amortized work per update and $O(\\log^4 m )$ depth per batch, both whp. The algorithm can also be used for parallel batch-dynamic hyperedge maximal matching. For hypergraphs with rank $r$ (maximum cardinality of any edge) the algorithm supports batches of updates with $O(r^3)$ expected amortized work per edge update, and $O(\\log^3 m)$ depth per batch whp. Ghaffari and Trygub's parallel batch-dynamic algorithm on hypergraphs requires $O(r^8 \\log^9 m)$ amortized work per edge update whp. We leverage ideas from the prior algorithms but introduce substantial new ideas. Furthermore, our algorithm is relatively simple, perhaps even simpler than Assadi and Solomon's (2021) sequential dynamic hyperedge algorithm. We also present the first work-efficient algorithm for parallel static maximal matching on hypergraphs. For a hypergraph with total cardinality $m'$ (i.e., sum over the cardinality of each edge), the algorithm runs in $O(m')$ work in expectation and $O(\\log^2 m)$ depth whp. The algorithm also has some properties that allow us to use it as a subroutine in the dynamic algorithm to select random edges in the graph to add to the matching. With a standard reduction from set cover to hyperedge maximal matching, we give state of the art $r$-approximate static and batch-dynamic parallel set cover algorithms, where $r$ is the maximum frequency of any element, and batch-dynamic updates consist of adding or removing batches of elements."
+labels:
+- graph
+- batch-dynamic
+- amortized
+- randomized
+- matching
+- set cover
+publications:
+- name: SPAA
+  url: https://doi.org/10.1145/3694906.3743313
+  year: 2025
+  month: 7
+  day: 28
+  dblp_key: conf/spaa/BlellochB25
+  bibtex: "@inproceedings{BB25,\n  author       = {Guy E. Blelloch and\n                  Andrew C. Brady},\n  title        = {Parallel Batch-Dynamic Maximal Matching with Constant Work per Update},\n  booktitle    = {Proceedings of the 37th ACM Symposium on Parallelism in Algorithms and Architectures},\n  pages        = {429--442},\n  publisher    = {ACM},\n  year         = {2025},\n  url          = {https://doi.org/10.1145/3694906.3743313},\n  doi          = {10.1145/3694906.3743313},\n}\n\n"
+- name: arXiv
+  url: https://arxiv.org/abs/2503.09908
+  year: 2025
+  month: 3
+  day: 12
+  dblp_key: journals/corr/abs-2503-09908
+  bibtex: "@article{BB25a,\n  title={Parallel Batch-Dynamic Maximal Matching with Constant Work per Update},\n  author={Blelloch, Guy and Brady, Andrew},\n  year={2025},\n  archivePrefix = {arXiv},\n  eprint = {2503.09908}\n}\n\n"
+year: 2025
+s2_id: none

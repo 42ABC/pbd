@@ -1,0 +1,13 @@
+title: Work-efficient parallel union-find with applications to incremental graph connectivity
+authors: Natcha Simsiri, Kanat Tangwongsan, Srikanta Tirthapura, Kun-Lung Wu
+labels:
+- graph
+- connectivity
+- batch-incremental
+- parallel
+publications:
+- name: Euro-Par
+  year: 2016
+  bibtex: "@inproceedings{simsiri2016work,\n\ttitle={Work-efficient parallel union-find with applications to incremental graph connectivity},\n\tauthor={Simsiri, Natcha and Tangwongsan, Kanat and Tirthapura, Srikanta and Wu, Kun-Lung},\n\tbooktitle={Euro-Par},\n\tyear={2016},\n}\n\n"
+year: 2016
+s2_id: none
