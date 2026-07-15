@@ -13,12 +13,10 @@ import {
 } from '@mui/material';
 import { Menu as MenuIcon, Close as CloseIcon } from '@mui/icons-material';
 import { Link as RouterLink, useLocation } from 'react-router-dom';
-import ThemeToggle from './ThemeToggle';
 
 const pages = [
   { name: 'Paper List', href: '/' },
-  { name: 'Further Material', href: '/material' },
-  { name: 'How to Contribute', href: '/contribute' },
+  { name: 'Why Parallel Batch-Dynamic?', href: '/material' },
   { name: 'About', href: '/about' },
 ];
 
@@ -67,7 +65,7 @@ const Header = () => {
             color: 'primary.main',
           }}
         >
-          {isMobile ? 'ALPS' : 'Algorithms with Predictions'}
+          {isMobile ? 'PBD' : 'Parallel Batch-Dynamic Algorithms'}
         </Typography>
 
         {/* Desktop Navigation */}
@@ -105,12 +103,10 @@ const Header = () => {
               </Button>
             );
           })}
-          <ThemeToggle />
         </Box>
 
         {/* Mobile Navigation */}
         <Box sx={{ display: { xs: 'flex', md: 'none' }, alignItems: 'center' }}>
-          <ThemeToggle />
           <IconButton
             color="inherit"
             aria-label={

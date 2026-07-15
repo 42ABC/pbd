@@ -1,4 +1,3 @@
-import { TYPE_LABELS, PRIOR_LABEL } from '../constants';
 
 /**
  * MUI palette color keys for labels
@@ -17,13 +16,9 @@ type LabelColorKey = 'typeLabels' | 'labels' | 'default';
  * - Other labels → 'labels' (blue)
  */
 export const getLabelColor = (label: string): LabelColorKey => {
-  if (TYPE_LABELS.includes(label as (typeof TYPE_LABELS)[number])) {
-    return 'typeLabels';
-  } else if (label === PRIOR_LABEL) {
-    return 'default';
-  } else {
-    return 'labels';
-  }
+  
+  return 'labels';
+  
 };
 
 /**
@@ -40,20 +35,7 @@ export const getLabelColor = (label: string): LabelColorKey => {
 export const sortLabels = (labels: string[] | undefined): string[] => {
   if (!labels) return [];
   return [...labels].sort((a, b) => {
-    const aIsType = TYPE_LABELS.includes(a as (typeof TYPE_LABELS)[number]);
-    const bIsType = TYPE_LABELS.includes(b as (typeof TYPE_LABELS)[number]);
-    const aIsPrior = a === PRIOR_LABEL;
-    const bIsPrior = b === PRIOR_LABEL;
-
-    // Type labels (orange) come first
-    if (aIsType && !bIsType) return -1;
-    if (!aIsType && bIsType) return 1;
-
-    // Prior label (gray) comes last
-    if (aIsPrior && !bIsPrior) return 1;
-    if (!aIsPrior && bIsPrior) return -1;
-
-    // Otherwise maintain original order
+    
     return 0;
   });
 };

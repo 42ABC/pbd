@@ -2,7 +2,6 @@ import { Box, Container, Typography } from '@mui/material';
 import PaperList from '../components/paperlist';
 import { usePapersData } from '../hooks/usePapersData';
 import PaperCardSkeleton from '@/components/skeletons/PaperCardSkeleton';
-import StatsDashboardSkeleton from '@/components/skeletons/StatsDashboardSkeleton';
 
 const HomePage: React.FC = () => {
   const { data, loading, error } = usePapersData();
@@ -19,7 +18,6 @@ const HomePage: React.FC = () => {
         <Typography sx={{ position: 'absolute', left: '-10000px' }}>
           Loading papers...
         </Typography>
-        <StatsDashboardSkeleton />
         {[1, 2, 3, 4, 5, 6].map(i => (
           <PaperCardSkeleton key={i} />
         ))}

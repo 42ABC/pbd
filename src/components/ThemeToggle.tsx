@@ -15,7 +15,7 @@ const getNextMode = (mode: 'light' | 'dark' | 'system'): string => {
     case 'system':
       return 'light';
     default:
-      return 'dark';
+      return 'light';
   }
 };
 

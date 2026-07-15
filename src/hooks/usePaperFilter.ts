@@ -1,5 +1,4 @@
 import { useState, useMemo } from 'react';
-import { SPECIAL_LABELS } from '../constants';
 import type { Paper, Publication } from '@/types';
 
 /**
@@ -100,7 +99,6 @@ export interface PaperFilterResult {
   /** Clear all filters */
   handleClearFilters: () => void;
   /** Special labels constant */
-  SPECIAL_LABELS: readonly string[];
 }
 
 /**
@@ -125,9 +123,7 @@ export const usePaperFilter = (data: Paper[] | null): PaperFilterResult => {
     const allLabels = data.flatMap(paper => (paper.labels ? paper.labels : []));
     const distinct = [...new Set(allLabels)];
     distinct.sort(stringCmp);
-    return distinct.filter(
-      el => !(SPECIAL_LABELS as readonly string[]).includes(el)
-    );
+    return distinct;
   }, [data]);
 
   // Filter and sort papers
@@ -178,6 +174,5 @@ export const usePaperFilter = (data: Paper[] | null): PaperFilterResult => {
     sortedData,
     distinctLabels,
     handleClearFilters,
-    SPECIAL_LABELS,
   };
 };

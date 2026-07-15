@@ -18,7 +18,6 @@ import type { Paper } from '@/types';
 // Import our new components
 import SearchAndFilter from './SearchAndFilter';
 import { PaperCard } from './paper';
-import StatsDashboard from './StatsDashboard';
 import EmptyState from './EmptyState';
 import { usePaperFilter } from '../hooks/usePaperFilter';
 import { exportBibtex } from '../utils/exportUtils';
@@ -40,7 +39,6 @@ const PaperList: React.FC<PaperListProps> = ({ data }) => {
     sortedData,
     distinctLabels,
     handleClearFilters,
-    SPECIAL_LABELS,
   } = usePaperFilter(data);
 
   // Count papers with BibTeX
@@ -69,12 +67,7 @@ const PaperList: React.FC<PaperListProps> = ({ data }) => {
       sx={{ py: { xs: 1, md: 1.5 }, px: { xs: 0, sm: 2, md: 3 } }}
     >
       <Stack spacing={{ xs: 1, md: 1.5 }}>
-        {/* Stats Dashboard */}
-        <Fade in timeout={600}>
-          <Box>
-            <StatsDashboard data={data} />
-          </Box>
-        </Fade>
+     
 
         {/* Search and Filters */}
         <Fade in timeout={800}>
@@ -85,7 +78,6 @@ const PaperList: React.FC<PaperListProps> = ({ data }) => {
               selectedLabels={selLabels}
               onLabelsChange={setSelLabels}
               availableLabels={distinctLabels}
-              specialLabels={SPECIAL_LABELS}
             />
           </Box>
         </Fade>

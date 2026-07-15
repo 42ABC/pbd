@@ -12,6 +12,7 @@ abstract: Estimating frequencies of elements appearing in a data stream is a key
 labels:
 - parsimonious / succinct
 - streaming
+- testing
 publications:
 - name: NeurIPS
   url: https://arxiv.org/abs/2312.07535
