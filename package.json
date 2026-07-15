@@ -1,16 +1,15 @@
 {
-  "name": "algorithms-with-predictions",
-  "version": "2.0.0",
+  "name": "pbd",
+  "homepage": "https://42abc.github.io/pbd",
+  "version": "1.0.0",
   "private": true,
   "type": "module",
-  "description": "algorithms-with-predictions",
-  "author": "Alexander Lindermayr",
+  "description": "parallel-batch-dynamic",
+  "author": "Andrew Brady",
   "keywords": [
     "vite",
     "react",
     "algorithms",
-    "machine-learning",
-    "predictions",
     "research",
     "academic"
   ],

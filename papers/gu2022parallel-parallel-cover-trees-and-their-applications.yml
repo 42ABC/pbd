@@ -8,6 +8,7 @@ labels:
 - nearest neighbor search
 - point set
 - randomized
+- parallel
 publications:
 - name: SPAA
   year: 2022

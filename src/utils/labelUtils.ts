@@ -2,7 +2,6 @@
 /**
  * MUI palette color keys for labels
  */
-type LabelColorKey = 'typeLabels' | 'labels' | 'default';
 
 /**
  * Get the color palette key for a label based on its type
@@ -15,11 +14,6 @@ type LabelColorKey = 'typeLabels' | 'labels' | 'default';
  * - PRIOR_LABEL ("prior / related work") → 'default' (gray)
  * - Other labels → 'labels' (blue)
  */
-export const getLabelColor = (label: string): LabelColorKey => {
-  
-  return 'labels';
-  
-};
 
 /**
  * Sort labels by importance: type labels first, regular labels, prior label last
@@ -34,8 +28,6 @@ export const getLabelColor = (label: string): LabelColorKey => {
  */
 export const sortLabels = (labels: string[] | undefined): string[] => {
   if (!labels) return [];
-  return [...labels].sort((a, b) => {
-    
-    return 0;
-  });
+  return labels;
+ 
 };

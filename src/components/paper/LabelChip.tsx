@@ -1,5 +1,4 @@
 import { Chip, type ChipPropsColorOverrides } from '@mui/material';
-import { getLabelColor } from '../../utils/labelUtils';
 import { trackEvent } from '../../utils/analytics';
 import type { OverridableStringUnion } from '@mui/types';
 
@@ -30,7 +29,7 @@ const LabelChip: React.FC<LabelChipProps> = ({
   onLabelClick = null,
   paperTitle = '',
 }) => {
-  const labelColor = getLabelColor(label);
+  const labelColor = 'labels';
 
   const handleClick = () => {
     if (onLabelClick) {
@@ -55,12 +54,8 @@ const LabelChip: React.FC<LabelChipProps> = ({
       aria-label={`${isSelected ? 'Remove' : 'Add'} filter for ${label}`}
       aria-pressed={isSelected}
       sx={theme => {
-        const palette =
-          labelColor === 'typeLabels'
-            ? theme.palette.typeLabels
-            : labelColor === 'labels'
-              ? theme.palette.labels
-              : null;
+        const palette = theme.palette.labels;
+              
 
         const baseColors = palette
           ? {
@@ -85,12 +80,8 @@ const LabelChip: React.FC<LabelChipProps> = ({
           transition:
             'background-color 0.2s ease, border-color 0.2s ease, color 0.2s ease',
           '&:hover': {
-            borderColor:
-              labelColor === 'typeLabels'
-                ? 'typeLabels.main'
-                : labelColor === 'labels'
-                  ? 'labels.main'
-                  : 'text.secondary',
+            borderColor: 'labels.main',
+                  
           },
           '&:active': {
             opacity: 0.85,
