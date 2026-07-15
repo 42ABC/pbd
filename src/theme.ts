@@ -14,24 +14,24 @@ export const createCustomTheme = (mode: ResolvedThemeMode) => {
   const isDark = mode === 'dark';
   const colors = {
     primary: isDark
-      ? { main: '#75bdb6', light: '#202c2c', dark: '#afd8d3' }
-      : { main: '#2d6f6b', light: '#e1ede9', dark: '#245955' },
+      ? { main: '#000000', light: '#000000', dark: '#000000' }
+      : { main: '#00aeff', light: '#f1faff', dark: '#7da0b0' }, //title is main. Border of other topics is light. Dark is text within other topics.
     secondary: isDark
-      ? { main: '#d99562', light: '#33251f', dark: '#edbd96' }
-      : { main: '#bd6a3f', light: '#f8e3d4', dark: '#934f2e' },
+      ? {main: '#000000', light: '#000000', dark: '#000000' }
+      : { main: '#000000', light: '#000000', dark: '#000000' },
     labels: isDark
-      ? { main: '#95b6ae', light: '#202c2a', dark: '#c1d6d1' }
-      : { main: '#4e746d', light: '#e6eeeb', dark: '#3b5c56' },
+      ? { main: '#000000', light: '#000000', dark: '#000000' }
+      : { main: '#ff00e6', light: '#f5f5f5', dark: '#c294baec' }, //keyword labels. Main is border on selection. Dark is text. Light is border
     typeLabels: isDark
-      ? { main: '#d99a6a', light: '#342922', dark: '#efc29f' }
-      : { main: '#c46f43', light: '#fae5d6', dark: '#98512f' },
+      ? { main: '#000000', light: '#000000', dark: '#000000' }
+      : { main: '#000000', light: '#000000', dark: '#000000' },
     surface: isDark
-      ? { default: '#101111', paper: '#171818', raised: '#1d1f1f' }
-      : { default: '#f5f6f2', paper: '#fffef9', raised: '#ffffff' },
+      ? { default: '#000000', paper: '#000000', raised: '#000000' }
+      : { default: '#f5f6f2', paper: '#fffef9', raised: '#ffffff' }, //background color
     text: isDark
       ? { primary: '#ecefed', secondary: '#b3b8b6', muted: '#8e9491' }
-      : { primary: '#202927', secondary: '#63706b', muted: '#7d8783' },
-    border: isDark ? '#303433' : '#d9ded9',
+      : { primary: '#6b6b6b', secondary: '#9b9b9b', muted: '#ff0b0b' }, //author names. also arxiv
+    border: isDark ? '#303433' : '#d9ded9', //border lines
   };
 
   return createTheme({
@@ -39,11 +39,11 @@ export const createCustomTheme = (mode: ResolvedThemeMode) => {
       mode,
       primary: {
         ...colors.primary,
-        contrastText: isDark ? '#10201e' : '#fffefa',
+        contrastText: isDark ? '#10201e' : '#ff0000',
       },
       secondary: {
         ...colors.secondary,
-        contrastText: isDark ? '#1f120c' : '#fffefa',
+        contrastText: isDark ? '#1f120c' : '#007ffe',
       },
       background: {
         default: colors.surface.default,
@@ -55,16 +55,12 @@ export const createCustomTheme = (mode: ResolvedThemeMode) => {
       },
       labels: {
         ...colors.labels,
-        contrastText: isDark ? '#101716' : '#fffefa',
-      },
-      typeLabels: {
-        ...colors.typeLabels,
-        contrastText: isDark ? '#101716' : '#fffefa',
+        contrastText: isDark ? '#101716' : '#ffffff',
       },
       success: {
-        main: isDark ? '#7fc48f' : '#2f7653',
-        light: isDark ? '#20422f' : '#dff0e5',
-        dark: isDark ? '#aad8b5' : '#22583d',
+        main: isDark ? '#7fc48f' : '#ff0000',
+        light: isDark ? '#20422f' : '#00ff59',
+        dark: isDark ? '#aad8b5' : '#00ff80',
       },
       warning: {
         main: colors.secondary.main,
@@ -72,8 +68,8 @@ export const createCustomTheme = (mode: ResolvedThemeMode) => {
         dark: colors.secondary.dark,
       },
       link: {
-        main: isDark ? '#8acbc2' : '#286d69',
-        hover: isDark ? '#b9e1db' : '#174c4a',
+        main: isDark ? '#8acbc2' : '#ffff00',
+        hover: isDark ? '#b9e1db' : '#00fff7',
         visited: isDark ? '#c4a386' : '#74432d',
       },
       divider: colors.border,
@@ -173,7 +169,7 @@ export const createCustomTheme = (mode: ResolvedThemeMode) => {
             backgroundColor: colors.surface.default,
           },
           '::selection': {
-            backgroundColor: isDark ? '#315e5a' : '#d9ece7',
+            backgroundColor: isDark ? '#315e5a' : '#00ffbb',
             color: colors.text.primary,
           },
           a: {

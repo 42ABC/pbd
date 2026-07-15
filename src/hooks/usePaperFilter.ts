@@ -15,8 +15,7 @@ const EMPTY_PUBLICATION: Publication = {
   day: 0,
 };
 
-const isArxiv = (pub: Publication): boolean =>
-  pub.name.toLowerCase() === 'arxiv';
+const isArxiv = (pub: Publication): boolean => pub.name.toLowerCase() === 'arxiv';
 
 const comparePubDate = (a: Publication, b: Publication): number => {
   const yearDiff = (a.year || 0) - (b.year || 0);

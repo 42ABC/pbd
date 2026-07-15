@@ -63,9 +63,9 @@ const getSystemPreference = (): ResolvedThemeMode => {
     typeof window !== 'undefined' &&
     typeof window.matchMedia !== 'undefined'
   ) {
-    return window.matchMedia('(prefers-color-scheme: dark)').matches
-      ? 'dark'
-      : 'light';
+    return 'light';//window.matchMedia('(prefers-color-scheme: dark)').matches
+      // ? 'dark'
+      // : 'light';
   }
   return 'light';
 };
@@ -178,7 +178,7 @@ export const ThemeContextProvider: React.FC<ThemeContextProviderProps> = ({
     effectiveMode,
     effectiveSystemPreference
   );
-  const theme = createCustomTheme(resolvedMode);
+  const theme = createCustomTheme('light');
 
   const value: ThemeContextValue = {
     mode: effectiveMode,
