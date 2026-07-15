@@ -4,7 +4,7 @@ import { resolve } from 'path';
 
 export default defineConfig({
   plugins: [react()],
-  base: '/pbd/',
+  base: '/', //or /pbd/?
   test: {
     globals: true,
     environment: 'jsdom',

@@ -1,6 +1,5 @@
 {
   "name": "pbd",
-  "homepage": "https://42abc.github.io/pbd",
   "version": "1.0.0",
   "private": true,
   "type": "module",
