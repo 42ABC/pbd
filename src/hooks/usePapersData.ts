@@ -6,7 +6,7 @@ import type { Paper } from '@/types';
  * Includes validation and error handling
  */
 const fetchPapersData = async (): Promise<Paper[]> => {
-  const response = await fetch('/papers.json');
+  const response = await fetch(`${import.meta.env.BASE_URL}papers.json`);
 
   if (!response.ok) {
     // Differentiate between error types for better UX
