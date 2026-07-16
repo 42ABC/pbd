@@ -6,6 +6,7 @@ labels:
 - graph
 - randomized
 - exact
+- parallel
 publications:
 - name: TOPC
   year: 2023

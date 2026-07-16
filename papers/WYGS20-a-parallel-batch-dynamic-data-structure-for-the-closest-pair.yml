@@ -4,6 +4,7 @@ labels:
 - computational geometry
 - closest pairs
 - batch-dynamic
+- parallel
 publications:
 - name: arXiv
   year: 2020

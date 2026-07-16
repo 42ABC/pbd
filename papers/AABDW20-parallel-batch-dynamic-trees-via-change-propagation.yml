@@ -5,6 +5,7 @@ labels:
 - batch-dynamic
 - worst-case
 - randomized
+- parallel
 publications:
 - name: ESA
   year: 2020

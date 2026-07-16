@@ -7,6 +7,7 @@ labels:
 - batch-dynamic
 - implementation
 - deterministic
+- parallel
 - amortized
 publications:
 - name: VLDB

@@ -8,6 +8,7 @@ labels:
 - matching
 - vertex coloring
 - adaptive adversary
+- parallel
 - randomized
 - amortized
 publications:

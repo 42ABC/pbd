@@ -6,6 +6,7 @@ labels:
 - implementation
 - randomized
 - worst-case
+- parallel
 publications:
 - name: PPoPP
   year: 2026

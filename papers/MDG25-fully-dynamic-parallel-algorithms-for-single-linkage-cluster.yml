@@ -9,6 +9,7 @@ labels:
 - batch-dynamic
 - deterministic
 - worst-case
+- parallel
 publications:
 - name: SPAA
   year: 2025

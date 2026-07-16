@@ -5,6 +5,7 @@ labels:
 - clique counting
 - batch-dynamic
 - implementation
+- parallel
 publications:
 - name: APOCS
   year: 2021

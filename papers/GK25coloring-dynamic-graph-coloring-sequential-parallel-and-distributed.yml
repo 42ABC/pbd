@@ -6,6 +6,7 @@ labels:
 - batch-dynamic
 - oblivious adversary
 - randomized
+- parallel
 - worst-case
 publications:
 - name: arXiv

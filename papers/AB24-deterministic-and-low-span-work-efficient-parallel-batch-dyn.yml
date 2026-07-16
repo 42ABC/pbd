@@ -6,6 +6,7 @@ labels:
 - deterministic
 - worst-case
 - adaptive adversary
+- parallel
 publications:
 - name: SPAA
   year: 2024

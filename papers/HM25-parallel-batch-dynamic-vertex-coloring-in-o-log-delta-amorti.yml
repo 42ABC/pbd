@@ -6,6 +6,7 @@ labels:
 - amortized
 - randomized 
 - oblivious adversary
+- parallel
 publications:
 - name: arXiv
   year: 2025

@@ -6,6 +6,7 @@ labels:
 - static
 - graph search
 - randomized
+- parallel
 publications:
 - name: SPAA
   year: 2023

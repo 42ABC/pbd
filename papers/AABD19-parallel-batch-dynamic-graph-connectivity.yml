@@ -6,6 +6,7 @@ labels:
 - batch-dynamic
 - randomized
 - amortized
+- parallel
 publications:
 - name: SPAA
   year: 2019

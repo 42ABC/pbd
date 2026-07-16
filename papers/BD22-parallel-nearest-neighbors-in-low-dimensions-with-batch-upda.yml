@@ -6,6 +6,7 @@ labels:
 - randomized
 - worst-case
 - implementation
+- parallel
 - point set
 publications:
 - name: ALENEX

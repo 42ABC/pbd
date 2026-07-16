@@ -8,6 +8,7 @@ labels:
 - randomized
 - matching
 - set cover
+- parallel
 publications:
 - name: SPAA
   url: https://doi.org/10.1145/3694906.3743313

@@ -11,6 +11,7 @@ labels:
 - deterministic
 - worst-case
 - implementation
+- parallel
 publications:
 - name: PPoPP
   year: 2026
