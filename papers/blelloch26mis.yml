@@ -1,0 +1,16 @@
+title: 'Parallel Batch-Dynamic Maximal Independent Set'
+authors: Guy Blelloch, Andrew Brady, Laxman Dhulipala, Jeremy Fineman, Jared Lo
+labels:
+- independent set
+- worst-case
+- graph
+- randomized
+- batch-dynamic
+- parallel
+- oblivious adversary
+publications:
+- name: arXiv
+  year: 2026
+  url: https://arxiv.org/abs/2604.07515
+year: 2026
+s2_id: none

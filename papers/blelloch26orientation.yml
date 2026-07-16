@@ -1,0 +1,18 @@
+title: 'Faster Parallel Batch-Dynamic Algorithms for Low Out-Degree Orientation'
+authors: Guy Blelloch, Andrew Brady, Laxman Dhulipala, Jeremy Fineman, Kishen Gowda, Chase Hutton
+labels:
+- graph
+- orientation
+- matching
+- coloring
+- amortized
+- worst-case
+- deterministic
+- randomized
+- parallel
+publications:
+- name: arXiv
+  year: 2026
+  url: https://arxiv.org/abs/2602.17811
+year: 2026
+s2_id: none

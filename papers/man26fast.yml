@@ -1,0 +1,14 @@
+title: Fast and Theoretically Efficient Batch-Parallel Link-Cut Trees, Euler Tour Trees, and Treaps
+authors: Quinten De Man and Laxman Dhulipala
+labels:
+- trees
+- batch-dynamic
+- implementation
+- parallel
+publications:
+- name: SPAA
+  year: 2026
+  url: https://dl.acm.org/doi/abs/10.1145/3816782.3819216
+  bibtex: "@inproceedings{10.1145/3816782.3819216,\n author = {De Man, Quinten and Dhulipala, Laxman},\n title = {Fast and Theoretically Efficient Batch-Parallel Link-Cut Trees, Euler Tour Trees, and Treaps},\n year = {2026},\n isbn = {9798400727610},\n publisher = {Association for Computing Machinery},\n address = {New York, NY, USA},\n url = {https://doi.org/10.1145/3816782.3819216},\n doi = {10.1145/3816782.3819216},\n abstract = {Parallel batch-dynamic trees are a fundamental building block in recent theoretical and practical advances in dynamic graph algorithms. However, all existing parallel batch-dynamic tree data structures, including Euler tour trees, UFO trees, topology trees, and rake-compress trees, are all significantly outperformed in the sequential setting by link-cut trees, which have been the sequential state-of-the-art for over 40 years. Despite their excellent performance in the sequential setting, designing efficient batch-parallel link-cut trees has remained a major open problem.In this paper, we close this gap by introducing MOJOS, a unified framework for theoretically- and practically-efficient parallel batch-dynamic trees. We exploit the fact that both Euler tour trees and link-cut trees rely on a common dynamic sequence abstraction that supports splitting and joining. We introduce a new batch-dynamic sequence built using treaps that achieves optimal work and depth, and outperforms existing parallel skip list and treap implementations for batch updates, queries, and memory usage.With MOJOS, we develop a new batch-parallel Euler tour tree algorithm that outperforms prior batch-dynamic tree implementations supporting subtree queries. Unlike prior batch-parallel Euler tour trees which rely on skip list's ability to represent cyclic sequences, MOJOS allows any batch-dynamic sequence data structure to be used as a drop-in replacement. Finally, we develop the first theoretically-efficient batch-parallel link-cut tree, which is also the first batch-dynamic data structure supporting path queries to achieve O(log n) depth for batch updates in the binary-forking model. Our link-cut tree implementation outperforms all known parallel batch-dynamic tree data structures supporting path queries.},\n booktitle = {Proceedings of the 38th ACM Symposium on Parallelism in Algorithms and Architectures},\n pages = {234–246},\n numpages = {13},\n keywords = {dynamic trees, batch-dynamic trees, link-cut tree},\n location = {Royal Holloway, University of London, London, United Kingdom},\n series = {SPAA '26}\n}\n\n"
+year: 2026
+s2_id: none
